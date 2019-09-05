@@ -9,6 +9,10 @@ body * {
 
 div {
     background: red;
+    float: left;
+    margin-left: 100px;
+    margin-left: calc(  (100% - 1000px) / 2);
+    width: 1000px;
 }
 
 h1 {
