@@ -31,3 +31,36 @@ p {
     display: inline-block;
     float: right;
 }
+
+@media (max-width: 800px) {
+    .red {
+        width: 500px;
+        margin: 0 calc( (100% - 500px) / 2 );
+     
+    }
+}
+
+
+@media (max-width: 900px) {
+    .red {
+        
+        width: 50%;
+        margin: 0 calc( (50% - 200px) / 2 );
+       
+        text-align: center;
+        
+     
+    }
+}
+
+@media (max-width: 1400px) {
+    div {
+        
+        width: 50%;
+        margin: 0 calc( (100% - 600px) / 2 );
+      
+        text-align: center;
+        
+     
+    }
+}
